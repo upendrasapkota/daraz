@@ -49,5 +49,6 @@ Route::get('/edit/{id}', [ProductController::class, 'edit'])->name('product.edit
 Route::PUT('/update/{id}', [ProductController::class, 'update'])->name('product.update');
 
 
+Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
 
 
